@@ -1,0 +1,30 @@
+<LinearLayout
+    android:id="@+id/ll_image_holder"
+    android:layout_width="0dp"
+    android:layout_weight="0.5"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="0dp"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="View Image"
+        android:textColor="#9E9E9E"
+        />
+
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/remove_attachment"
+        android:layout_margin="4dp"
+        />
+
+</LinearLayout>

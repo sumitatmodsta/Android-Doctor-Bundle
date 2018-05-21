@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MaterialSpinner">
+        <attr name="ms_baseColor" format="integer" />
+        <attr name="ms_highlightColor" format="integer" />
+        <attr name="ms_errorColor" format="integer" />
+        <attr name="ms_error" format="string" />
+        <attr name="ms_hint" format="string" />
+        <attr name="ms_hintColor" format="color" />
+        <attr name="ms_floatingLabelText" format="string" />
+        <attr name="ms_floatingLabelColor" format="color" />
+        <attr name="ms_multiline" format="boolean" />
+        <attr name="ms_nbErrorLines" format="integer" />
+        <attr name="ms_typeface" format="string" />
+        <attr name="ms_alignLabels" format="boolean" />
+        <attr name="ms_thickness" format="dimension" />
+        <attr name="ms_thickness_error" format="dimension" />
+        <attr name="ms_arrowSize" format="dimension" />
+        <attr name="ms_arrowColor" format="color" />
+        <attr name="ms_enableFloatingLabel" format="boolean" />
+        <attr name="ms_enableErrorLabel" format="boolean" />
+        <attr name="ms_isRtl" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer" />
+        <attr name="arc_angle" format="float" />
+        <attr name="arc_stroke_width" format="dimension" />
+        <attr name="arc_max" format="integer" />
+
+        <attr name="arc_unfinished_color" format="color" />
+        <attr name="arc_finished_color" format="color" />
+
+        <attr name="arc_text_size" format="dimension" />
+        <attr name="arc_text_color" format="color" />
+
+        <attr name="arc_suffix_text" format="string" />
+        <attr name="arc_suffix_text_size" format="dimension" />
+        <attr name="arc_suffix_text_padding" format="dimension" />
+
+        <attr name="arc_bottom_text" format="string" />
+        <attr name="arc_bottom_text_size" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MaterialEditText">
+        <attr name="met_baseColor" format="color" />
+        <attr name="met_primaryColor" format="color" />
+        <attr name="met_floatingLabel">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="highlight" value="2" />
+        </attr>
+        <attr name="met_errorColor" format="color" />
+        <attr name="met_minCharacters" format="integer" />
+        <attr name="met_maxCharacters" format="integer" />
+        <attr name="met_singleLineEllipsis" format="boolean" />
+        <attr name="met_minBottomTextLines" format="integer" />
+        <attr name="met_helperText" format="string" />
+        <attr name="met_helperTextColor" format="color" />
+        <attr name="met_accentTypeface" format="string" />
+        <attr name="met_typeface" format="string" />
+        <attr name="met_floatingLabelText" format="string" />
+        <attr name="met_floatingLabelPadding" format="dimension" />
+        <attr name="met_hideUnderline" format="boolean" />
+        <attr name="met_underlineColor" format="color" />
+        <attr name="met_autoValidate" format="boolean" />
+        <attr name="met_iconLeft" format="reference" />
+        <attr name="met_iconRight" format="reference" />
+        <attr name="met_iconPadding" format="dimension" />
+        <attr name="met_clearButton" format="boolean" />
+        <attr name="met_floatingLabelTextSize" format="dimension" />
+        <attr name="met_floatingLabelTextColor" format="color" />
+        <attr name="met_bottomTextSize" format="dimension" />
+        <attr name="met_floatingLabelAlwaysShown" format="boolean" />
+        <attr name="met_helperTextAlwaysShown" format="boolean" />
+        <attr name="met_floatingLabelAnimating" format="boolean" />
+        <attr name="met_textColor" format="color" />
+        <attr name="met_textColorHint" format="color" />
+        <attr name="met_validateOnFocusLost" format="boolean" />
+        <attr name="met_checkCharactersCountAtBeginning" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="shadow" format="boolean" />
+        <attr name="shadow_colors" format="color" />
+        <attr name="shadow_radius" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="circularImageViewStyle" format="reference" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="ViewPagerIndicator">
+
+        <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+
+        <attr name="vpiViewPageIndicatorStyle" format="reference" />
+    </declare-styleable>
+
+    <attr name="centered" format="boolean" />
+    <attr name="selectedColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="unselectedColor" format="color" />
+    <attr name="pageImg" format="reference" />
+    <attr name="fillImg" format="reference" />
+
+    <declare-styleable name="CirclePageIndicator">
+
+        <!-- Whether or not the indicators should be centered. -->
+        <attr name="centered" />
+        <!-- Color of the filled circle that represents the current page. -->
+        <attr name="fillColor" format="color" />
+        <!-- Color of the filled circles that represents pages. -->
+        <attr name="pageColor" format="color" />
+        <!-- Orientation of the indicator. -->
+        <attr name="android:orientation" />
+        <!-- Radius of the circles. This is also the spacing between circles. -->
+        <attr name="radius" format="dimension" />
+        <!-- Whether or not the selected indicator snaps to the circles. -->
+        <attr name="snap" format="boolean" />
+        <!-- Color of the open circles. -->
+        <attr name="strokeColor" format="color" />
+        <!-- Width of the stroke used to draw the circles. -->
+        <attr name="strokeWidth" />
+        <!-- View background -->
+        <attr name="android:background" />
+        <!-- Page background -->
+        <attr name="pageImg" />
+        <!-- Fill background -->
+        <attr name="fillImg" />
+    </declare-styleable>
+    <bool name="default_circle_indicator_centered">true</bool>
+    <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
+    <color name="default_circle_indicator_page_color">#00000000</color>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <dimen name="default_circle_indicator_radius">3dp</dimen>
+    <bool name="default_circle_indicator_snap">false</bool>
+    <color name="default_circle_indicator_stroke_color">#FFDDDDDD</color>
+    <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
+
+    <declare-styleable name="CircularLoader">
+        <attr name="max" format="float" />
+        <attr name="progress" format="float" />
+        <attr name="backgroundRingSize" format="dimension" />
+        <attr name="progressRingSize" format="dimension" />
+        <attr name="backgroundRingColor" format="color|reference" />
+        <attr name="progressRingColor" format="color|reference" />
+        <attr name="progressGradient" format="reference" />
+        <attr name="joinGradient" format="boolean" />
+        <attr name="gradientFactor" format="float" />
+        <attr name="progressRingOutline" format="boolean" />
+        <attr name="progressRingCorner">
+            <enum name="ROUND" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension" />
+        <attr name="android:divider" />
+        <attr name="android:requiresFadingEdge" />
+        <attr name="android:fadingEdgeLength" />
+    </declare-styleable>
+
+    <declare-styleable name="PEWAttrs">
+            <attr name="reverse">
+                <enum name="none" value="1" />
+                <enum name="reverseX" value="2" />
+                <enum name="reverseY" value="3" />
+                <enum name="reverseBoth" value="4" />
+            </attr>
+
+            <attr name="parallax_x" format="dimension"/>
+            <attr name="parallax_y" format="dimension"/>
+
+            <attr name="update_onDraw" format="boolean"/>
+
+            <attr name="block_parallax_x" format="boolean"/>
+            <attr name="block_parallax_y" format="boolean"/>
+
+            <attr name="interpolation">
+                <enum name="linear" value="0" />
+                <enum name="accelerate_decelerate" value="1" />
+                <enum name="accelerate" value="2" />
+                <enum name="anticipate" value="3" />
+                <enum name="anticipate_overshoot" value="4" />
+                <enum name="bounce" value="5" />
+                <enum name="decelerate" value="6" />
+                <enum name="overshoot" value="7" />
+            </attr>
+
+    </declare-styleable>
+</resources>

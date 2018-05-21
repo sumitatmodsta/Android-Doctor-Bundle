@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border"
+    android:orientation="vertical"
+    android:padding="20dp"
+    xmlns:aw="http://schemas.android.com/apk/res-auto"
+    >
+
+    <ImageView
+        android:id="@+id/iv_close_audio_popup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_timer_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="10:10"
+        android:textSize="30sp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/bt_reload"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"
+            android:src="@android:drawable/ic_menu_revert"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/bt_stop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/stop_btn"
+            android:layout_centerHorizontal="true"
+            app:backgroundTint="@android:color/holo_red_dark"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/bt_record"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/mic_record"
+            android:layout_margin="5dp"
+            android:layout_centerHorizontal="true"
+            app:backgroundTint="@android:color/holo_red_dark"
+            />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/bt_pause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@android:drawable/ic_media_pause"
+            android:layout_margin="5dp"
+            android:layout_centerHorizontal="true"
+            />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/bt_play"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:src="@android:drawable/ic_media_play"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/bt_upload_audio_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0097A7"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        />
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutPubFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UIActivity">
+
+   <RelativeLayout
+        android:id="@+id/publisherWidget"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/tab1"
+           android:orientation="horizontal">
+           <TableRow
+               android:id="@+id/tableRow1"
+               android:layout_height="match_parent"
+               android:layout_width="wrap_content"
+               android:layout_weight="4">
+        <ImageView
+            android:id="@+id/mutePublisher"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mic"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:onClick="onMutePublisher" />
+
+               <ImageView
+                   android:id="@+id/endCall"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:src="@drawable/call_disconnect"
+                   android:layout_weight="1"
+                   android:scaleType="centerInside"
+                   android:adjustViewBounds="true"
+                   android:onClick="onEndCall" />
+
+        <ImageView
+            android:id="@+id/textChat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:layout_centerVertical="true"
+            android:src="@drawable/chat"
+            android:onClick="onTextChat"
+            />
+               <ImageView
+                   android:id="@+id/screenshare"
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:src="@drawable/screen_share"
+                   android:scaleType="centerInside"
+                   android:adjustViewBounds="true"
+                   android:onClick="onShareScreen"
+                   />
+
+           </TableRow>
+       </TableLayout>
+
+
+    </RelativeLayout>
+        
+</RelativeLayout>

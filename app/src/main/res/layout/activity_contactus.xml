@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:background="@color/white"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/mailer_ico"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/contactus_click_email_address"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:textColor="@color/edittext_border"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="info@modasta.com"
+        android:id="@+id/email_us"
+
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Or Sign in with -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/email_us"
+        android:gravity="center"
+        android:id="@+id/linearLayout">
+
+        <View
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"/>
+
+        <TextView
+            android:id="@+id/tv_SocialText"
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:text="Follow us on"
+            android:textColor="@color/gray_1" />
+
+
+        <View
+            android:layout_weight="0.3"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/gray_1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/google_plus"
+        android:src="@drawable/g_plus"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/twitter"
+        android:layout_toStartOf="@+id/twitter" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twitter"
+        android:src="@drawable/twitter"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/facebook"
+        android:src="@drawable/fb"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/twitter"
+        android:layout_toEndOf="@+id/twitter" />
+</RelativeLayout>

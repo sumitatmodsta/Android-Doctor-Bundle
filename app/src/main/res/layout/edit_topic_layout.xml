@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BBDEFB"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Topic"
+        />
+
+    <EditText
+        android:id="@+id/et_edit_topic_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="4dp"
+        android:scrollIndicators="left"
+        android:hint="Edit Topic title"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:minHeight="50dp"
+        />
+
+    <EditText
+        android:id="@+id/et_edit_topic_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="4dp"
+        android:scrollIndicators="left"
+        android:hint="Edit Topic content"
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:minHeight="150dp"
+        />
+
+    <Button
+        android:id="@+id/bt_edit_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Comment"
+        android:background="#006064"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

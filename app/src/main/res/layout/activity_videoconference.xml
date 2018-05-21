@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top">
+
+        <android.support.v4.view.PagerTitleStrip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@color/mdtp_red" />
+
+    </android.support.v4.view.ViewPager>
+
+
+    <RelativeLayout
+        android:id="@+id/preview"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:id="@+id/publisherWidget"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tab1"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_weight="4">
+
+                <ImageView
+                    android:id="@+id/mutePublisher"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mic"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true" />
+
+                <ImageView
+                    android:id="@+id/endCall"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/call_disconnect"
+                    android:layout_weight="1"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true" />
+
+                <ImageView
+                    android:id="@+id/textChat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true"
+                    android:layout_weight="1"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/chat" />
+
+                <ImageView
+                    android:id="@+id/screenshare"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/screen_share"
+                    android:scaleType="centerInside"
+                    android:adjustViewBounds="true" />
+
+            </TableRow>
+        </TableLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

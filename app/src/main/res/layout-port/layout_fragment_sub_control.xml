@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutSubFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    tools:context=".UIActivity">
+
+    <RelativeLayout
+        android:id="@+id/subscriberWidget"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:visibility="gone"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/muteSubscriber"
+            android:layout_width="48dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@null"
+            android:visibility="gone"
+            android:src="@drawable/mute_sub" />
+        <TextView
+            android:id="@+id/subscriberName"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@+id/muteSubscriber"
+            android:layout_alignParentLeft="true"
+            android:gravity="center_vertical|right"
+            android:paddingLeft="10dp"
+            android:visibility="gone"
+            android:paddingRight="10dp"
+            android:text="vivek"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/swapCamera"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@null"
+        android:visibility="visible"
+        android:src="@drawable/camera" />
+
+
+</RelativeLayout>

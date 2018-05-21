@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="@color/thickBlue"
+        android:textSize="16sp"
+        android:text="Do you want extend time" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:text="5 Minutes"
+        android:id="@+id/radio1"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/thickGrey"
+        android:checked="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@android:string/cancel"
+            android:background="@color/lightGrey"
+            android:textColor="@color/lightBlack"
+            android:padding="10dp"
+            android:gravity="center" />
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:background="@color/lightGrey"
+            android:text="@android:string/ok"
+            android:textColor="@color/lightBlack"
+            android:padding="10dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+</LinearLayout>

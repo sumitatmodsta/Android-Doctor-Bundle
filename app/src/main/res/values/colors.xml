@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4ba4cb</color>
+    <!-- 0C4EB8-->
+    <color name="colorPrimaryDark">#2a7e9e</color>
+    <!-- 303F9F -->
+    <color name="colorAccent">#0A50B4</color>
+    <color name="colorStatusBar">#0288D1</color>
+    <color name="ripple_color">#d5e0e5</color>
+    <color name="windowBackground">#f7f7f7</color>
+    <color name="fab_color">#FF4081</color>
+    <color name="alert_text_color">#34383C</color>
+    <color name="edittext_border">#c6c6c6</color>
+    <color name="edittext_pressed_border">#0269FB</color>
+    <color name="edittext_hint_color">#0A50B4</color>
+    <color name="textColor">#5a5b5d</color>
+    <color name="first_aid">#E50000</color>
+    <color name="light_line">#204ba3ca</color>
+    <color name="action_pressed_color">#24adc4</color>
+    <color name="action_normal_color">#5a5b5d</color>
+    <color name="editorial_color">#617db8</color>
+
+    <color name="edittext_hint">#7f8c8d</color>
+
+    <color name="home_banner_text">#00a89a</color>
+    <color name="classname">#666666</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+    <color name="circular_image_border">#fff</color>
+    <color name="listView_heading_color">#505050</color>
+    <color name="listView_comment_color">#7f8c8d</color>
+    <color name="listView_token_background">#fff</color>
+    <color name="listView_screen_background">#fff</color>
+    <color name="listView_Unread_message_text">#fff</color>
+    <color name="actionbar_bg">#0099CC</color>
+    <color name="splash_color">#03A9F4</color>
+    <!-- 3498db 009688  0091EA-->
+    <color name="fab_material_blue_grey_500">#34495e</color>
+    <!-- FLAT UI COLORS-->
+    <color name="fbutton_color_turquoise">#1abc9c</color>
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_emerald">#2ecc71</color>
+    <color name="fbutton_color_nephritis">#27ae60</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+    <color name="fbutton_color_belize_hole">#2980b9</color>
+    <color name="reply_text_color">#bdbdbd</color>
+    <color name="fbutton_color_amethyst">#9b59b6</color>
+    <color name="fbutton_color_wisteria">#8e44ad</color>
+    <color name="fbutton_color_wet_asphalt">#34495e</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_sun_flower">#f1c40f</color>
+    <color name="fbutton_color_orange">#f39c12</color>
+    <color name="fbutton_color_carrot">#e67e22</color>
+    <color name="fbutton_color_pumpkin">#d35400</color>
+    <color name="fbutton_color_alizarin">#e74c3c</color>
+    <color name="fbutton_color_pomegranate">#c0392b</color>
+    <color name="fbutton_color_clouds">#ecf0f1</color>
+    <color name="fbutton_color_silver">#bdc3c7</color>
+    <color name="fbutton_color_concrete">#95a5a6</color>
+    <color name="fbutton_color_asbestos">#7f8c8d</color>
+    <color name="bg_msg_you">#5eb964</color>
+    <color name="bg_msg_from">#e5e7eb</color>
+    <color name="msg_border_color">#a1a1a1</color>
+    <color name="bg_btn_join">#1e6258</color>
+    <color name="bg_msg_input">#e8e8e8</color>
+    <color name="text_msg_input">#626262</color>
+    <color name="title_gray">#434343</color>
+    <color name="lblFromName">#777777</color>
+    <color name="chatCountBackground">#8BC34A</color>
+    <color name="flat_pressed">#66999999</color>
+    <color name="flat_disabled_text">#40000000</color>
+    <color name="flat_normal_text">#000000</color>
+    <color name="Button_color">#0288D1</color>
+    <color name="Heading_color">#78909C</color>
+    <color name="actionbar_color">#00BCD4</color>
+    <!--009688   #0288D1-->
+    <color name="dark_slate_gray">#2F4F4F</color>
+    <color name="gray_2">#AFAFAF</color>
+    <color name="gray_1">#C0C0C0</color>
+
+    <color name="black">#000000</color>
+    <color name="gray_3">#b6baba</color>
+    <color name="gray_4">#F9F9F9</color>
+    <color name="gray_5">#e8e8e8</color>
+    <color name="connected_color">#6c7172</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="listSelector">#84FFFF</color>
+    <color name="selector">#4DD0E1</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="Break">#B9F6CA</color>
+    <color name="diary_empty_text">#525252</color>
+
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+    <color name="gray_6">#757575</color>
+    <color name="home_option_title_color">#616161</color>
+    <color name="article_title_color">#FFE54F50</color>
+    <color name="article_footer_color">#D7CCC8</color>
+    <color name="article_content_color">#9037474F</color>
+
+    <color name="light_green">#3eb74e</color>
+    <color name="light_purple">#8c61b3</color>
+    <color name="light_orange">#ffb500</color>
+    <color name="light_cyan">#00BCD4</color>
+
+    <color name="tut_forum">#E0AD3B</color>
+    <color name="tut_videos">#FFC400</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/colorPrimaryDark</item>
+    </integer-array>
+
+    <color name="gplus_color_1">#90CAF9</color>
+    <color name="gplus_color_2">#64B5F6</color>
+    <color name="gplus_color_3">#42A5F5</color>
+    <color name="gplus_color_4">#2196F3</color>
+
+    <color name="alpha_black">#4c4c4c</color>
+    <color name="trans_black">#a7abb0</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="pink">#b83d92</color>
+
+    <color name ="query_textcolor">#000000</color>
+    <color name ="query_datecolor">#848484</color>
+    <color name ="query_answers">#000000</color>
+
+    <color name ="query_dash_tabcolor">#26A69A</color>
+    <color name ="query_list_row_background">#eff0ec</color>
+
+    <color name ="edittext_hint_text_color">#bcbec0</color>
+    <color name ="query_order_id_color">#f89520</color>
+    <color name ="attached_report_text_color">#536DFE</color>
+
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="half_black">#808080</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <!--Opentok colors-->
+    <color name="grey">#363636</color>
+    <color name="dark_grey">#282828</color>
+    <color name="trans_dark_grey">#80282828</color>
+    <color name="trans_white">#20ffffff</color>
+    <color name="trans">#00000000</color>
+    <color name="blue">#cc33b5e5</color>
+    <color name="black_grey">#ff1f1f1f</color>
+    <color name="init_gradient">#ff98CE00</color>
+    <color name="color0_gradient">#ff98CE00</color>
+    <color name="color1_gradient">#8098CE00</color>
+    <color name="borders">#d4d3d3</color>
+    <color name="lighter_bkgd">#f4f4f4</color>
+    <color name="dark_gray">#ECEFF1</color>
+    <color name="dividers">#ecebeb</color>
+    <color name="standard_font">#333333</color>
+    <color name="text">#888888</color>
+    <color name="light_gray">#f8f8f8</color>
+
+    <color name="info">#AAAAAA</color>
+    <color name="edit_text_bkgd">#FFFFFF</color>
+
+    <!--Appointments-->
+    <color name="red">#FB4C2F</color>
+    <color name="orange">#E5A300</color>
+    <color name="thickGreen">#19A765</color>
+    <color name="lightGreen">#7ABF30</color>
+    <color name="thickBlue">#0086FA</color>
+    <color name="lightBlue">#279EBF</color>
+    <color name="veryLightBlue">#EBF7FF</color>
+    <color name="thickGrey">#AEACAD</color>
+    <color name="mediumGrey">#CCCCCC</color>
+    <color name="lightGrey">#E6E6E6</color>
+    <color name="lightBlack">#B2000000</color>
+    <color name="circleBorder">#47C3C8</color>
+    <color name="veryLightGrey">#f8f9f9</color>
+
+    <!--Profile-->
+    <color name="profile_fields">#717070</color>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BBDEFB"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Comment"
+        />
+
+    <EditText
+        android:id="@+id/html_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:padding="4dp"
+        android:scrollIndicators="left"
+        android:hint="Edit your comment here..."
+        android:background="@color/white"
+        android:layout_marginBottom="10dp"
+        android:minHeight="50dp"
+        />
+
+    <Button
+        android:id="@+id/bt_edit_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Comment"
+        android:background="#006064"
+        android:textColor="#FFFFFF"
+        android:layout_margin="5dp"
+        />
+
+</LinearLayout>

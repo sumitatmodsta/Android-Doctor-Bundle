@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/subscriber_container"
+                android:visibility="invisible"/>
+            <FrameLayout
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                android:id="@+id/publisher_container"
+                android:layout_gravity="start"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:padding="2dp"
+                android:visibility="invisible"/>
+        </FrameLayout>
+        <com.ogaclejapan.arclayout.ArcLayout
+            android:id="@+id/arc_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:arc_origin="bottom|right"
+            android:background="@drawable/transparent_circle_base"
+            app:arc_radius="200dp"
+            app:arc_axisRadius="167dp"
+            app:arc_freeAngle="false"
+            app:arc_reverseAngle="false"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/video"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_video_on" />
+            <ImageView
+                android:id="@+id/summary"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_summary" />
+            <!--<ImageView
+                android:id="@+id/both"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher" />-->
+            <ImageView
+                android:id="@+id/chat"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_chat" />
+        </com.ogaclejapan.arclayout.ArcLayout>
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_call" />
+
+        <ImageView
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:visibility="gone"
+            android:src="@drawable/ic_menu" />
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="#fff"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:text="00:00"/>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_holder"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:background="@color/alpha_black"
+    android:paddingBottom="5dp">
+
+
+    <ImageView
+        android:id="@+id/iv_closeimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_image_close"
+        android:layout_alignParentEnd="true"
+        />
+
+    <ImageView
+        android:id="@+id/iv_delete_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_delete_forever"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="4dp"
+        android:visibility="gone"
+        />
+
+    <com.modastadoc.doctors.widget.TouchImageView
+        android:id="@+id/network_image"
+        android:layout_below="@id/iv_closeimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/iv_delete_image"
+        android:scaleType="matrix"
+        />
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Could not load image. \n\n Please check your internet connection"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        />
+
+
+    <Button
+        android:id="@+id/share"
+        style="?android:attr/buttonStyleInset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:layout_margin="3dp"
+        android:textColor="@color/white"
+        android:layout_alignTop="@+id/tv_error"
+        android:layout_toEndOf="@+id/tv_error"
+        android:background="@drawable/share_button_bg"
+        android:visibility="gone"
+        />
+
+
+
+</RelativeLayout>

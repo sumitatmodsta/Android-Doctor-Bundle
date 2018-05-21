@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:layout_marginBottom="5dp"
+    android:elevation="2dp"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/civ_topic_author_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/comment_icon"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        >
+
+        <TextView
+            android:id="@+id/tv_topic_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comment Text"
+            android:textSize="16sp"
+            android:layout_marginTop="5dp"
+            android:textColor="#49a3ca"
+            android:textStyle="bold"
+            android:padding="5dp"
+            />
+
+        <!-- AUTHOR NAME AND LAST UPDATED-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_topic_author"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Author Name"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_topic_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15 Sept, 2016"
+                android:textSize="13sp"
+                android:layout_marginLeft="5dp"
+                android:textStyle="italic"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

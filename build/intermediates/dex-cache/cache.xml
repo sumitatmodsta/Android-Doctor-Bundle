@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/developer/Andropid-DocApp/app/libs/httpmime-4.1-beta1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c6a4817fb147dd523dd0239b6fcfc9fe4ba2dcfc">
+        <dex dex="/Users/developer/Andropid-DocApp/app/build/intermediates/pre-dexed/release/httpmime-4.1-beta1_c7f1e350bebbd3af13004ad40b2f9fb3de7b3f56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/developer/Andropid-DocApp/app/libs/htmlcleaner-2.16.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="12a5b6a32dab31dc71053d1ed3959ee379ffb120">
+        <dex dex="/Users/developer/Andropid-DocApp/app/build/intermediates/pre-dexed/release/htmlcleaner-2.16_f11b6a15f237659650e2d6c702c3aeb841028204.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/developer/Andropid-DocApp/app/libs/org.apache.http.legacy-2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="/Users/developer/Andropid-DocApp/app/build/intermediates/pre-dexed/release/org.apache.http.legacy-2_7afc7bf06f8cbc75d93b130aba29efa86f69ea45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/developer/Andropid-DocApp/Exomedia/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bcc72680021d253023571e6067986bdc2a23a96b">
+        <dex dex="/Users/developer/Andropid-DocApp/app/build/intermediates/pre-dexed/release/classes_d380d1b42c20d78c694081047187b4763621c865.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/developer/Andropid-DocApp/app/libs/commons-lang3-3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9d28a6b23650e8a7e9063c04588ace6cf7012c17">
+        <dex dex="/Users/developer/Andropid-DocApp/app/build/intermediates/pre-dexed/release/commons-lang3-3.6_59a1548b9d86187900a298686da85e5e31027f7a.jar" />
+    </item>
+
+</items>

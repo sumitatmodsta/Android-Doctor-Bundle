@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">Modasta Doc</string>
+    <string name="about_modasta">About Us</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string name="contactus_click_email_address">Click on the email address to reach us</string>
+    <!-- ........................ -->
+    <string name="username_error">Email/Username is mandatory</string>
+    <string name="password_error">Password is mandatory</string>
+    <string name="send_to">Share Modasta App</string>
+    <string name="login_sign_in_with_modasta">Sign In With Modasta</string>
+    <string name="login_username">Email Or Username</string>
+    <string name="login_password">Password</string>
+    <string name="login_signin">SIGN IN</string>
+    <string name="login_signup">SIGN UP</string>
+    <string name="login_or_sign_in_with">Or sign in with</string>
+    <string name="login_back">Back</string>
+    <string name="login_forgot_password">Forgot Password?</string>
+    <!-- ........................ -->
+
+
+    <!-- ForgotActivity SCREEN-->
+    <string name="forgot_registered_username">Type your registered Email/Username</string>
+    <string name="forgot_submit">Submit</string>
+    <string name="title_activity_sub_group">SubGroupActivity</string>
+    <!-- ........................ -->
+
+    <string name="back"><![CDATA[<]]></string>
+    <string name="rewind"><![CDATA[<<]]></string>
+    <string name="forward"><![CDATA[>>]]></string>
+    <string name="pause">||</string>
+
+    <!--Opentok VideoCall-->
+    <string name="voinceonly">Voice Only</string>
+    <string name="audiodevice">Audio device</string>
+    <string name="helloworldemulator">Emulator Hello World</string>
+    <string name="screensharing">Screen Sharing</string>
+    <string name="defaultcameracapturer">Default Camera Capturer</string>
+    <string name="screenshot">Screenshot</string>
+
+    <string name="connectStr">Connect</string>
+    <string name="publishStr">Publish</string>
+    <string name="previewOn">Start Preview</string>
+    <string name="disconnectStr">Disconnect</string>
+    <string name="swapStr">Swap camera</string>
+    <string name="endCall1">End call</string>
+    <string name="endCall2">End</string>
+    <string name="audioOnly">Audio only</string>
+    <string name="send">Send</string>
+    <string name="archivingOn">Archiving on</string>
+    <string name="archivingOff">Archiving off</string>
+    <string name="notification">Ongoing call</string>
+    <string name="clearNotificationService">Clear Notification</string>
+
+    <string name="permission_camera_rationale">Sample application needs permission to use cameras</string>
+    <string name="permission_internet_rationale">Sample application needs permission to use the network</string>
+    <string name="permission_audiorecord_rationale">Sample application needs permission to use the microphone</string>
+    <string name="permission_audiosettings_rationale">Sample application needs permission to modify the audio settings</string>
+    <string name="permission_writeexternalstorage_rationale">Sample application needs permission to write to the SD card</string>
+    <string name="permission_camera_granted">Camera permission granted</string>
+    <string name="permission_internet_granted">Network permission granted</string>
+    <string name="permission_audiorecord_granted">Mircophone permission granted</string>
+    <string name="permission_audiosettings_granted">Audio settings permission granted</string>
+    <string name="permission_writeexternalstorage_granted">SD card permission granted</string>
+    <string name="permission_notgranted">Permissions were not granted.</string>
+
+    <!--HomeScreen-->
+    <string name="appointment_call_title">START</string>
+    <string name="appointment_cancel_title">CANCEL</string>
+    <string name="appointment_delay_title">DELAY</string>
+    <string name="appointment_view_summary_title">VIEW SUMMARY</string>
+    <string name="appointment_datetime_title">Appointment Date &amp; Time</string>
+    <string name="appointment_view_detail_title">View Details</string>
+    <string name="appointment_cancel_slot_title">Cancel Slot</string>
+    <string name="appointment_delay_slot_title">Delay</string>
+    <string name="appointment_req_time_slot_title">Requested Time Slot</string>
+    <string name="appointment_order_id_title">Order ID</string>
+    <string name="appointment_upcoming_title">Upcoming appointments</string>
+    <string name="pending_queries_title">Pending Queries</string>
+    <string name="video_consultation_title">Video Consultation</string>
+    <string name="text_queries_title">Text Queries</string>
+    <string name="title_activity_appointment">Appointments</string>
+
+    <string name="title_accepted_queries">Accepted Queries</string>
+    <string name="title_suggestions_by_inhouse">Suggestions Given By Inhouse</string>
+    <string name="title_closed_queries">Closed Queries</string>
+
+    <!--Summary Screen-->
+    <string name="title_consultation_summary">Consultation Summary</string>
+    <string name="text_diagnosis">Probable Diagnosis:</string>
+    <string name="hint_diagnosis">Type Diagnosis</string>
+    <string name="text_medical_advice">Medical advice:</string>
+    <string name="hint_medical_advice">Type Medical Advice</string>
+    <string name="text_medical_required">Medical Test Required:</string>
+    <string name="text_can_select_multiple_tests">(Can select multiple tests)</string>
+    <string name="text_other_tests">Other Tests?</string>
+    <string name="text_test_name">Test Name:</string>
+    <string name="text_upload_file">Upload File:</string>
+    <string name="text_upload">Upload</string>
+    <string name="hint_test_name">Type Test Name</string>
+    <string name="text_submit">SUBMIT</string>
+    <string name="text_show_to_patient">SHOW TO PATIENT</string>
+    <string name="text_add">ADD</string>
+    <string name="text_save">SAVE</string>
+
+    <!--Consultation Fee Screen-->
+    <string name="text_indian">INDIAN</string>
+    <string name="text_international">INTERNATIONAL</string>
+
+    <!--Details Screen-->
+    <string name="text_name">Name:</string>
+    <string name="text_age">Age:</string>
+    <string name="text_gender">Gender:</string>
+    <string name="text_height">Height:</string>
+    <string name="text_weight">Weight:</string>
+    <string name="text_address">Address:</string>
+    <string name="text_city">City:</string>
+    <string name="text_diagnosed_condition">Do you have any previously diagnosed conditions?</string>
+    <string name="text_medication">Do you take any medication?</string>
+    <string name="text_allergy">Do you have any allergy?</string>
+
+    <!-- ERROR MESSAGES-->
+    <string name="error_title">Error</string>
+    <string name="error_no_network_title">No Network</string>
+    <string name="error_no_network_message">You are not connected to network. Please connect and try again</string>
+    <string name="error_something_wrong_message">Something went wrong. Please try again</string>
+
+    <!-- WAITING MESSAGES-->
+    <string name="title_waiting_message1">Press Ready button</string>
+    <string name="title_waiting_message2">Once you are ready for video consultation</string>
+    <string name="title_waiting_message3">Please Wait..</string>
+    <string name="title_waiting_message4">Patient Will Join You Shortly</string>
+    <string name="title_waiting_message5">Patient is waiting</string>
+    <string name="title_waiting_message6">Press Ready button to start consultation</string>
+    <string name="title_waiting_message7">Patient yet to come</string>
+
+    <!-- ALERT MESSAGES-->
+    <string name="alert_settings_positive_title">SETTINGS</string>
+    <string name="alert_settings_negative_title">NOT NOW</string>
+    <!-- ........................ -->
+
+    <string name="upload_alert_message_lable">Note: Supported file types are jpeg, jpg, png, pdf only and maximum size is 25 MB only</string>
+    <string name="upload_alert_gallery_lable">Gallery</string>
+    <string name="upload_alert_camera_lable">Camera</string>
+
+</resources>

@@ -1,0 +1,110 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tab_background"
+        app:tabBackground="@drawable/tab_select_background"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        app:tabTextColor="@color/query_dash_tabcolor"
+        />
+
+    <ListView
+        android:id="@+id/rv_query_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_query_list2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tabs"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/tv_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tabs"
+        android:layout_alignTop="@+id/tabs"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/badge_circle"
+        android:text="2"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_zero_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No queries found"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll_button_link"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:id="@+id/iv_b_img"
+            android:src="@drawable/on_boarding_img"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please visit this link and get on-boarded."
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            />
+
+        <Button
+            android:id="@+id/bt_boarding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Get On-Board!"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/query_dash_tabcolor"
+            android:textColor="#FFFFFF"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Please login in app again after onboarding)"
+            android:gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:textSize="13sp"
+            android:textColor="#BDBDBD"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

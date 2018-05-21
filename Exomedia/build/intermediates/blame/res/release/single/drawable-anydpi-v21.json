@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/developer/Andropid-DocApp/Exomedia/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml",
+        "source": "/Users/developer/Andropid-DocApp/Exomedia/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_previous_white.xml"
+    },
+    {
+        "merged": "/Users/developer/Andropid-DocApp/Exomedia/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml",
+        "source": "/Users/developer/Andropid-DocApp/Exomedia/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_rewind_white.xml"
+    },
+    {
+        "merged": "/Users/developer/Andropid-DocApp/Exomedia/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml",
+        "source": "/Users/developer/Andropid-DocApp/Exomedia/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_skip_next_white.xml"
+    },
+    {
+        "merged": "/Users/developer/Andropid-DocApp/Exomedia/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml",
+        "source": "/Users/developer/Andropid-DocApp/Exomedia/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_fast_forward_white.xml"
+    },
+    {
+        "merged": "/Users/developer/Andropid-DocApp/Exomedia/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_play_arrow_white.xml",
+        "source": "/Users/developer/Andropid-DocApp/Exomedia/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_play_arrow_white.xml"
+    },
+    {
+        "merged": "/Users/developer/Andropid-DocApp/Exomedia/build/intermediates/res/merged/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml",
+        "source": "/Users/developer/Andropid-DocApp/Exomedia/build/generated/res/pngs/release/drawable-anydpi-v21/exomedia_ic_pause_white.xml"
+    }
+]

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+    <TextView
+        android:id="@+id/pre_call_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:padding="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="PRECALL TEST" />
+
+    <!--Details Container starting-->
+    <RelativeLayout
+        android:id="@+id/details_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:visibility="gone">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/lightBlue"
+            android:layout_below="@+id/toolbar">
+            <TextView
+                android:id="@+id/tab_chat"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Chat"/>
+            <TextView
+                android:id="@+id/tab_details"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Patient Details"/>
+            <TextView
+                android:id="@+id/tab_summary"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:text="Summary"/>
+        </LinearLayout>
+        <!--<com.viewpagerindicator.TabPageIndicator
+            android:id="@+id/indicator"
+            android:background="@color/lightBlue"
+            android:layout_height="45dp"
+            android:layout_width="fill_parent"
+            />-->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"
+            />
+    </RelativeLayout>
+    <!--Details Container ending-->
+
+    <!--Video Container starting-->
+    <FrameLayout
+        android:id="@+id/video_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+        <FrameLayout
+            android:id="@+id/subscriber_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <FrameLayout
+            android:id="@+id/publisher_container"
+            android:layout_width="90dp"
+            android:layout_height="120dp"
+            android:layout_gravity="start"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:padding="2dp"/>
+    </FrameLayout>
+    <!--Video Container ending-->
+
+    <!--Waiting Container starting-->
+    <LinearLayout
+        android:id="@+id/waiting_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"/>
+
+        <com.modastadoc.doctors.widget.CircularImageView
+            android:id="@+id/pic"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/waiting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_waiting_message1"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/waiting2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title_waiting_message2"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"/>
+        <Button
+            android:id="@+id/ready"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:text="Ready"/>
+    </LinearLayout>
+    <!--Waiting Container ending-->
+
+    <!--Settings Container starting-->
+    <RelativeLayout
+        android:id="@+id/settings_container"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="bottom"
+        android:visibility="gone">
+
+        <com.ogaclejapan.arclayout.ArcLayout
+            android:id="@+id/arc_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/transparent_circle_base"
+            android:visibility="gone"
+            app:arc_axisRadius="134dp"
+            app:arc_freeAngle="false"
+            app:arc_origin="bottom|right"
+            app:arc_radius="160dp"
+            app:arc_reverseAngle="false">
+
+            <ImageView
+                android:id="@+id/camera_toggle"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_camera_toggle" />
+            <ImageView
+                android:id="@+id/audio"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_mic_on" />
+            <ImageView
+                android:id="@+id/video"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_video_on" />
+            <ImageView
+                android:id="@+id/summary"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_summary" />
+            <ImageView
+                android:id="@+id/details"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_details" />
+            <ImageView
+                android:id="@+id/chat"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_chat" />
+        </com.ogaclejapan.arclayout.ArcLayout>
+
+        <ImageView
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/ic_call" />
+
+        <ImageView
+            android:id="@+id/options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_menu" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp"
+            android:text="00:00"
+            android:textColor="#fff" />
+    </RelativeLayout>
+    <!--Settings Container ending-->
+    <TextView
+        android:id="@+id/reconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="RECONNECT" />
+
+    <RelativeLayout
+        android:id="@+id/patient_report_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <WebView
+            android:id="@+id/patient_report_webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/report_close"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/border_thick_blue"
+            android:textColor="@color/thickBlue"
+            android:layout_margin="12dp"
+            android:text="Close"/>
+    </RelativeLayout>
+</FrameLayout>

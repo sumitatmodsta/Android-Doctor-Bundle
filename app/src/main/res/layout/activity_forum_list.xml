@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ll_holder"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_forum_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Forum Title"
+        android:textColor="#616161"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_forum_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_below="@id/tv_forum_title"
+        />
+
+    <TextView
+        android:id="@+id/tv_zero_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:gravity="center_horizontal"
+        android:text="No Forums found"
+        android:visibility="gone"
+        />
+
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/fam_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        fab:fab_addButtonColorNormal="@color/colorPrimary"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_request_new_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="#0277BD"
+            fab:fab_colorPressed="@color/white_pressed"
+            fab:fab_icon="@drawable/new_group_icon"
+            fab:fab_title="Request New Group"
+            />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+    <!-- REQUEST NEE GROUP LAYOUT-->
+    <FrameLayout
+        android:id="@+id/fl_new_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:elevation="2dp"
+            >
+
+            <EditText
+                android:layout_marginTop="5dp"
+                android:id="@+id/et_request_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Request for a new group"
+                android:background="@drawable/editext_background"
+                android:padding="8dp"
+                />
+
+            <Button
+                android:id="@+id/bt_new_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#90CAF9"
+                android:text="Request"
+                />
+
+            <TextView
+                android:id="@+id/tv_response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="Done."
+                android:textColor="#FFFFFF"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/bt_close_window"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#90CAF9"
+                android:text="Close"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>
